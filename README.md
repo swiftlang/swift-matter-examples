@@ -13,7 +13,7 @@ This repository contains an example simple Embedded Swift application that imple
 
 #### Embedded Swift
 
-Embedded Swift is a subset of Swift designed for constrained environments, such as embedded devices, kernel code, and other low-level systems. It includes most Swift language features, like generics, value and reference types, optionals, error handling, and more. Embedded Swift introduces the safety and expressivity of Swift to environments usually dominated by C or C++ code. To learn more, see [A Vision for Embedded Swift](https://github.com/apple/swift-evolution/blob/main/visions/embedded-swift.md).
+Embedded Swift is a subset of Swift designed for constrained environments, such as embedded devices, kernel code, and other low-level systems. It includes most Swift language features, like generics, value and reference types, optionals, error handling, and more. Embedded Swift introduces the safety and expressivity of Swift to environments usually dominated by C or C++ code. To learn more, see [A Vision for Embedded Swift](https://github.com/swiftlang/swift-evolution/blob/main/visions/embedded-swift.md).
 
 #### Matter
 
@@ -21,15 +21,15 @@ Matter is an open standard for building smart home accessories, supported native
 
 #### Additional Resources
 
-- [Embedded Swift User Manual](https://github.com/apple/swift/blob/main/docs/EmbeddedSwift/UserManual.md)
-- [More Embedded Swift Example Projects](https://github.com/apple/swift-embedded-examples)
+- [Embedded Swift User Manual](https://github.com/swiftlang/swift/blob/main/docs/EmbeddedSwift/UserManual.md)
+- [More Embedded Swift Example Projects](https://github.com/swiftlang/swift-embedded-examples)
 - [Swift Forums Embedded Discussion](https://forums.swift.org/c/development/embedded/107)
 
 ## Getting Started
 
 ### Documentation
 
-For comprehensive tutorials with detailed instructions, please refer to the [**project documentation**](https://apple.github.io/swift-matter-examples/tutorials/tutorial-table-of-contents).
+For comprehensive tutorials with detailed instructions, please refer to the [**project documentation**](https://swiftlang.github.io/swift-matter-examples/tutorials/tutorial-table-of-contents).
 
 ### Requirements
 
@@ -49,13 +49,13 @@ Before running the examples, ensure you have the following tools available:
 ### Quick Start Guide
 
 > [!IMPORTANT]
-> We highly recommend following the provided [tutorials](https://apple.github.io/swift-matter-examples/tutorials/tutorial-table-of-contents).
+> We highly recommend following the provided [tutorials](https://swiftlang.github.io/swift-matter-examples/tutorials/tutorial-table-of-contents).
 
-Ensure your shell has access to the tools listed above, see [Get started on macOS](https://apple.github.io/swift-matter-examples/tutorials/swiftmatterexamples/setup-macos) or [Get started on Linux with Docker](https://apple.github.io/swift-matter-examples/tutorials/swiftmatterexamples/setup-docker) for additional setup instructions.
+Ensure your shell has access to the tools listed above, see [Get started on macOS](https://swiftlang.github.io/swift-matter-examples/tutorials/swiftmatterexamples/setup-macos) or [Get started on Linux with Docker](https://swiftlang.github.io/swift-matter-examples/tutorials/swiftmatterexamples/setup-docker) for additional setup instructions.
 
 1. Clone the repository and navigate to one of the examples.
   ```shell
-  $ git clone https://github.com/apple/swift-matter-examples.git
+  $ git clone https://github.com/swiftlang/swift-matter-examples.git
   $ cd swift-matter-examples/smart-light
   ```
 
@@ -69,8 +69,8 @@ Ensure your shell has access to the tools listed above, see [Get started on macO
   $ idf.py build flash monitor
   ```
 
-Explore the implementation, see [Explore the LED Blink example](https://apple.github.io/swift-matter-examples/tutorials/swiftmatterexamples/run-example-led-blink#Understand-the-code) and
-[Explore the Smart Light example](https://apple.github.io/swift-matter-examples/tutorials/swiftmatterexamples/run-example-smart-light#Understand-the-code) for guided walkthroughs.
+Explore the implementation, see [Explore the LED Blink example](https://swiftlang.github.io/swift-matter-examples/tutorials/swiftmatterexamples/run-example-led-blink#Understand-the-code) and
+[Explore the Smart Light example](https://swiftlang.github.io/swift-matter-examples/tutorials/swiftmatterexamples/run-example-smart-light#Understand-the-code) for guided walkthroughs.
 
 ## Contributing to Swift Matter Examples
 
