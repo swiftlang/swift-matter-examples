@@ -1,5 +1,8 @@
 name: Build Matter Examples
 
+permissions:
+  contents: read
+
 on:
   push:
     branches: ["main"]
